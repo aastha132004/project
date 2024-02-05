@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Typing Animation</title>
+    <link rel="stylesheet" href="c11.css">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1 style="font-size: 40;">AASTHA</h1>
+            <p id="s">Student</p>
+        </header>
+    </div>
+    <main>
+        <br><br><br>
+        <button class="button" onclick="toggleAdditionalDetails('personal-details')"> personal details</button>
+
+        <section id="personal-details" class="additional-details">
+            <p>
+            <ul>
+                <li> SEMESTER : SECOND</li>
+                <li> ROLL NO: IIB2023031</li>
+                <li> COLLEGE : IIIT allahabad </li>
+            </ul>
+            </p>
+        </section>
+
+        <br><br><br>
+        <button class="button" onclick="toggleAdditionalDetails('education')"> education</button>
+
+        <section id="education" class="additional-details">
+            <p>
+            <ul>
+                <li>10 th and 12th passout </li>
+                <li> currently doing btech at IIIT Allahabad</li>
+            </ul>
+            </p>
+        </section>
+
+        <br><br><br>
+        <button class="button" onclick="toggleAdditionalDetails('skills')"> skills</button>
+
+        <section id="skills" class="additional-details">
+            <p>
+            <ul>
+                <li>c</li>
+                <li> c++</li>
+                <li> html</li>
+            </ul>
+            </p>
+        </section>
+
+        <br><br><br>
+        <button class="button" onclick="toggleAdditionalDetails('hobby')"> hobby</button>
+
+        <section id="hobby" class="additional-details">
+            <p>
+            <ul>
+                <li> coding </li>
+                <li> drawing </li>
+                <li> dancing</li>
+            </ul>
+            </p>
+        </section>
+
+        <br><br><br>
+
+        <textarea name="issue" id="s5" placeholder="If you have an issue, write here">Issue</textarea>
+    </main>
+
+
+    <script>
+        function toggleAdditionalDetails(sectionId) {
+            var detailsSection = document.getElementById(sectionId);
+            detailsSection.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>

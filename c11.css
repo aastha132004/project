@@ -1,0 +1,74 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #fafdff, #a5eaf2);
+}
+
+header {
+    text-align: center;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(to right, #79edff, #6c5ce7);
+    color: #fff;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: #000000;
+}
+
+p#s {
+    color: #666;
+}
+
+main {
+    padding: 20px;
+}
+
+.button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px; /* Add margin between buttons */
+}
+
+.additional-details {
+    display: none;
+    margin-top: 10px; /* Adjust margin for consistent spacing */
+}
+
+.additional-details.active {
+    display: block;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+/* Optional: Add hover effect to buttons */
+.button:hover {
+    background-color: #276891;
+}
